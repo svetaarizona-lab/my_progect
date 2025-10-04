@@ -8,4 +8,4 @@ digit4 = number % 10
 print(digit1)
 print(digit2)
 print(digit3)
-print(digit4)
+print(digit4)#
