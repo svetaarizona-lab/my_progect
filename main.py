@@ -1,4 +1,5 @@
 print("hello user")
+
 number = int(input("Please enter the integer number 4-x: "))
 digit1 = number // 1000
 digit2 = (number // 100) % 10
