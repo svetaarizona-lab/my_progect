@@ -1,4 +1,4 @@
-print("hello world")
+print("hello user")
 
 number = int(input("Please enter the integer number 4-x: "))
 digit1 = number // 1000
