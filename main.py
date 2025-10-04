@@ -9,4 +9,4 @@ print(digit1)
 print(digit2)
 print(digit3)
 print(digit4)
-#
+#end homework 2.1
