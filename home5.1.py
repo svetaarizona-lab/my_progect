@@ -11,6 +11,7 @@ if (
         or any(ch in string.punctuation.replace('_', '') for ch in name) #заборона знаків пунктуації
         or ' ' in name # пробіли заборонені
         or name.count('_') > 1
+        or name.count('__') > 1
         or name in keyword.kwlist
 ):
     print(False)
