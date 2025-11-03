@@ -2,10 +2,11 @@
 #кома, крапка,
 def first_word(text: str)-> str:
     """ Пошук першого слова """
-    for znak in [" , " , " . "]:
+    for znak in [",", "."]:
         text = text.replace(znak, " ")
     words = text.split()
     return words [0] if words else ''
+
 print (first_word("Hello world"))# == "Hello", 'Test1'
 print (first_word("greetings, friends"))# == "greetings", 'Test2'
 print (first_word("don't touch it"))# == "don't", 'Test3'
